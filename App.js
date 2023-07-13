@@ -6,7 +6,7 @@ import {useState} from "react";
 
 export default function App() {
   
-  const PolicyHTML = useAssets([require('./assets/Policy.html')]);
+  const PolicyHTML = require('./assets/public/index.html');
   
   return (
     <SafeAreaView style={{ flex: 1 }}>
@@ -18,12 +18,3 @@ export default function App() {
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

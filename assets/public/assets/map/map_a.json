@@ -1,0 +1,55 @@
+{
+  "size": {
+    "width": 32,
+    "height": 32
+  },
+  "layers": {
+    "background": {
+      "fillTile": "grass",
+      "isStatic": true,
+      "zIndex": 0,
+      "tiles": [
+        {
+          "tile": "water",
+          "position": {
+            "x": 5,
+            "y": 10
+          },
+          "size": {
+            "width": 10,
+            "height": 4
+          }
+        },
+        {
+          "tile": "path",
+          "points": [
+            [4, 4],
+            [4, 5],
+            [4, 6],
+            [4, 7]
+          ]
+        }
+      ]
+    },
+    "static": {
+      "isStatic": false,
+      "zIndex": 1,
+      "tiles": [
+        {
+          "tile": "tree",
+          "position": {
+            "x": 5,
+            "y": 5
+          }
+        },
+        {
+          "tile": "tree",
+          "position": {
+            "x": 6,
+            "y": 6
+          }
+        }
+      ]
+    }
+  }
+}

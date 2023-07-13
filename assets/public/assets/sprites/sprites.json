@@ -1,0 +1,88 @@
+{
+    "frames": {
+        "xTile": {
+            "frame": {
+                "x": 4,
+                "y": 0,
+                "w": 2,
+                "h": 3
+            },
+            "sourceSize": {
+                "w": 2,
+                "h": 3
+            },
+            "spriteSourceSize": {
+                "x": 4,
+                "y": 0,
+                "w": 2,
+                "h": 3
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "zTile": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 2,
+                "h": 3
+            },
+            "sourceSize": {
+                "w": 2,
+                "h": 3
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 2,
+                "h": 3
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "yTile": {
+            "frame": {
+                "x": 2,
+                "y": 0,
+                "w": 2,
+                "h": 2
+            },
+            "sourceSize": {
+                "w": 2,
+                "h": 2
+            },
+            "spriteSourceSize": {
+                "x": 2,
+                "y": 0,
+                "w": 2,
+                "h": 2
+            },
+            "rotated": false,
+            "trimmed": false
+        },
+        "horizontalLine": {
+            "frame": {
+                "x": 0,
+                "y": 1,
+                "w": 2,
+                "h": 1
+            },
+            "sourceSize": {
+                "w": 2,
+                "h": 1
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 1,
+                "w": 2,
+                "h": 1
+            },
+            "rotated": false,
+            "trimmed": false
+        }
+    },
+    "animations": {},
+    "meta": {
+        "scale": "1"
+    }
+}
