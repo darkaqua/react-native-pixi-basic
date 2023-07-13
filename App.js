@@ -6,12 +6,14 @@ import {useState} from "react";
 
 export default function App() {
   
+  const PolicyHTML = useAssets([require('./assets/Policy.html')]);
+  
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <WebView
         scalesPageToFit={true}
         onError={event => console.log(event)}
-        source={{uri: 'https://pixijs.io/examples/#/demos-basic/container.js'}}
+        source={PolicyHTML}
       />
     </SafeAreaView>
   );
